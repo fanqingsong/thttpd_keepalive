@@ -1,0 +1,12 @@
+---- clear_connection Matches (11 in 1 files) ----
+Thttpd.c:static void clear_connection( connecttab* c, struct timeval* tvP );
+Thttpd.c:		clear_connection( c, &tv );
+Thttpd.c:	clear_connection( c, tvP );
+Thttpd.c:    clear_connection( c, tvP );
+Thttpd.c:clear_connection( connecttab* c, struct timeval* tvP )
+Thttpd.c:printLog(" !! clear_connection  ");
+Thttpd.c:printLog(" !! clear_connection  => c->conn_state == CNST_LINGERING  ");
+Thttpd.c:printLog(" !! clear_connection  => c->hc->should_linger  ");
+Thttpd.c:printLog(" !! clear_connection  => not c->hc->should_linger  ");
+Thttpd.c:printLog(" idle clear_connection ");
+Thttpd.c:		clear_connection( c, nowP );
