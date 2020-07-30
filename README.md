@@ -1,4 +1,9 @@
 # thttpd_keepalive
 
-基于thttpd最新代码，研究添加keep-alive功能， 可以与压缩包中代码比对查看。 注意此为功能调试实验产物，并非完全实现标准化的结果。 
+Based on the version of thttpd, do some research on keep-alive function of HTTP.
+
+You can compare the code with that in compressed tar.
+
+Note:
+This is just for research.
 
